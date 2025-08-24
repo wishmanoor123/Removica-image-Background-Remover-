@@ -6,11 +6,11 @@ Users can upload an image, remove the background, preview the result, and downlo
 
 
  🌟 Features
-- 📤 Upload any image (JPG/PNG)
-- 🪄 Remove background instantly
-- 👀 Preview original & processed image
-- 📥 Download result as PNG
-- 🎨 Clean, responsive UI
+-  Upload any image (JPG/PNG)
+-  Remove background instantly
+-  Preview original & processed image
+-  Download result as PNG
+-  Clean, responsive UI
 
 
 
@@ -18,7 +18,7 @@ Users can upload an image, remove the background, preview the result, and downlo
 - ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white) **HTML5** – Structure  
 - ![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white) **CSS3** – Styling  
 - ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black) **JavaScript (Vanilla)** – Functionality  
-- ![Remove.bg](https://img.shields.io/badge/Remove.bg%20API-Background%20Removal-brightgreen) **Remove.bg API** – Background removal  
+-![API](https://img.shields.io/badge/API-Background%20Removal-blue)**Background Removal API** – Removes background from images 
 
 Add your Remove.bg API Key in **script.js**
 
