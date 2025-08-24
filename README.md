@@ -31,6 +31,7 @@ headers: {
 }
 Upload an image → Remove background → Download the result
 
+
 ## ⚠️ Important
 - This repo does not contain any API key for security reasons  
 - To run the project, you must use your own API key  
