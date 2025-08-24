@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Background Remover</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Back Button -->
+  <a href="index.html" class="back-btn" data-aos="fade-down">← Back</a>
+
+  <!-- Heading -->
+  <h1 data-aos="fade-up">Image Background Remover</h1>
+
+  <!-- Upload Section -->
+  <label for="upload" data-aos="zoom-in">Choose an Image</label>
+  <input type="file" id="upload" accept="image/*" data-aos="fade-up">
+
+  <!-- Original & Result Preview -->
+  <div class="preview-container">
+    <div class="preview-box" data-aos="fade-right">
+      <p>Original</p>
+      <img id="preview">
+    </div>
+    <div class="preview-box" data-aos="fade-left">
+      <p>Without Background</p>
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+
+  <!-- Buttons -->
+  <div>
+    <button id="removeBtn" data-aos="zoom-in">Remove Background</button>
+    <button id="downloadBtn" data-aos="zoom-in">Download</button>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,  // animation speed
+      once: true       // run only once per element
+    });
+  </script>
+
+  <!-- TensorFlow & BodyPix -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix"></script>
+
+  <!-- Custom JS -->
+  <script src="remover.js"></script>
+</body>
+</html>

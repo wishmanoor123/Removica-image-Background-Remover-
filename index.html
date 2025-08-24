@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearCut - Home</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  
+  <!-- Particle Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1 class="logo" data-aos="fade-down">Removica</h1>
+    <p class="tagline" data-aos="fade-up" data-aos-delay="200">Erase the rest, showcase the best.</p>
+    <button id="getStarted" data-aos="zoom-in" data-aos-delay="400">Get Started</button>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200, // animation speed
+      once: true      // play only once
+    });
+  </script>
+
+  <!-- Redirect -->
+  <script>
+    document.getElementById("getStarted").addEventListener("click", () => {
+      window.location.href = "remover.html";
+    });
+  </script>
+
+  <!-- Particles JS -->
+  <script src="script.js"></script>
+</body>
+</html>
