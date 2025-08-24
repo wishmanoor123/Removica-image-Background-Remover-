@@ -1,6 +1,6 @@
  🖼️ Background Remover
 
-A simple web app to **remove image backgrounds** instantly using the [Remove.bg API](https://www.remove.bg/api).  
+A simple web app to **remove image backgrounds** instantly using the API.  
 Users can upload an image, remove the background, preview the result, and download it in one click. 
 
 
